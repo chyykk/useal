@@ -1,0 +1,254 @@
+.header{
+    background: #343a42;
+    height: 40px;
+}
+.header ul li{
+    line-height: 40px;
+    float: left;
+}
+.header ul li,.header ul li a{
+    font-size: 12px;
+    color: #ffffff;
+}
+/*导航栏*/
+.nav{
+    background-color: #f2f2f2;
+    height: 100px;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 18px;
+}
+.nav .left{
+  padding: 15px 0;
+}
+.nav .right{
+    line-height: 100px;
+}
+.nav ul li{
+    margin-left: 40px;
+    float: left;
+}
+.nav ul li a{
+    color: #767676;
+}
+.nav ul li a:hover{
+    color: #38b1a7;
+}
+
+/*注册信息部分*/
+.section{
+    background: #f2f2f2;
+}
+/*.content{*/
+    /*width: 100%;*/
+/*}*/
+/*.content div{*/
+    /*width: 100%;*/
+/*}*/
+.content:after{
+    content: "11";
+    display: block;
+    height: 0px;
+    visibility: hidden;
+}
+.content h1{
+    text-align: center;
+    font-family:"Microsoft YaHei";
+    font-weight: 500;
+    margin: 0;
+    padding: 50px 0 0 0;
+    color: #2fb1a7;
+}
+.content div{
+    margin-bottom: 40px;
+}
+.content label{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    line-height: 30px;
+    vertical-align:middle;
+}
+.content input[type=text],.content input[type=password],.content input[type=number],.content input[type=email],.content textarea{
+    margin-left: 3%;
+    width: 37%;
+    border: 3px solid #d2d2d2;
+    outline:none;
+}
+.content input[type=text]:focus,.content input[type=password]:focus,.content input[type=number]:focus,.content input[type=email]:focus,.content textarea:focus,.content select:focus{
+    border-color: #2fb1a7;
+    box-shadow: none;
+}
+.content input{
+    font-family:"Microsoft YaHei";
+    height: 26px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.content select,.content textarea{
+    outline: none;
+    padding-left: 10px;
+    font-family:"Microsoft YaHei";
+}
+.content input.i_num{
+    width: 220px;
+}
+.content input[type=radio]{
+    margin-left: 1%;
+    background: #ffffff;
+}
+.content select{
+    padding-left: 10px;
+    color: #9f9f9f;
+    margin-left: 3%;
+    width: 110px;
+    height: 30px;
+    border: 3px solid #d2d2d2;
+    border-radius: 3px;
+}
+.content select option{
+    text-align: center;
+}
+.content select:last-child{
+    margin-left: 108px;
+}
+.content input[type=checkbox],.content input[type=radio]{
+    /*border-radius: 2px;*/
+    visibility: hidden;
+}
+.content .ck:last-child{
+    margin-left: 150px;
+}
+.content .ck{
+    width:95px;
+}
+.content .rd{
+    /*width:95px;*/
+    width: 10%;
+    text-align: left;
+}
+.check,.check2,.check3,.check1{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("../image/anniu.png") no-repeat center;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+.check1{
+    background: url("../image/gou.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.check2{
+    background: url("../image/radio.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.check3{
+    background: url("../image/radio_jh.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.content textarea{
+    vertical-align: middle;
+    margin-left: 2.5%;
+}
+.section>.juzhong{
+    background: #ffffff;
+}
+.content  input.dj{
+    outline:none;
+    height: 34px;
+    margin-left: 35px;
+    width: 150px;
+    background: #ffffff;
+    border: 3px solid #d2d2d2;
+    color: #d2d2d2;
+}
+.content  input.dj:hover{
+    border-color: #2fb1a7;
+    color: #2fb1a7;
+}
+.content input[type=button].zc{
+    font-size: 18px;
+    font-family:"Microsoft YaHei";
+    color: #ffffff;
+    border: none;
+    background: #2fb1a7;
+    border-radius: 10px;
+    margin: 55px 0 40px 37px;
+     width: 227px;
+     height: 60px;
+     line-height: 50px;
+ }
+.content input[type=button].zc:hover{
+    background: #0e9086;
+}
+.content input[type=button].zc:first-child{
+    margin-left: 30%;
+}
+/*底部导航*/
+footer{
+    background: #2fb1a7;
+    color: #ffffff;
+}
+.wrap>div{
+    width: 30%;
+    padding-bottom: 50px;
+}
+div.mid{
+    margin:0 5%;
+}
+
+.footer_head{
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ffffff;
+}
+
+footer ul{
+    margin-left: 20%;
+}
+.mid ul{
+    margin-left: 30%;
+}
+footer ul li{
+    line-height: 200%;
+}
+.icon{
+    vertical-align: middle;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.arrow{
+    margin-bottom: 8px;
+    margin-left: 5px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 8px solid #2fb1a7;
+    border-right:8px solid  transparent;
+    border-bottom: 5px solid transparent;
+    border-top:5px solid  transparent;
+}
+/*最下面合作公司部分*/
+.company{
+    text-align: center;
+    background: #333a42;
+}
+.company ul{
+    padding-left: 120px;
+}
+.company ul li{
+    float: left;
+    margin:15px;
+}
+.company,.company ul li a{
+    font-size: 12px;
+    color: #ffffff;
+}
+.company p{
+    padding-bottom: 15px;
+}

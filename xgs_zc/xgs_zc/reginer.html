@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="css/comme.css"/>
+    <link rel="stylesheet" href="css/reginer.css"/>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/provice.js"></script>
+</head>
+<body>
+   <header class="header">
+       <div class="juzhong">
+           <div class="wrap">
+               <ul class="right">
+                   <li><a href="#">登录</a> |</li>
+                   <li><a href="#">&nbsp;注册</a></li>
+               </ul>
+           </div>
+       </div>
+   </header>
+   <nav class="nav">
+       <div class="juzhong">
+           <div class="cf">
+               <div class="left">
+                   <a href="#"><img src="image/logo_2.png" alt=""/></a>
+                   <p>O2O软件开发新形态</p>
+               </div>
+               <ul class="right">
+                   <li>
+                       <a href="#">首页</a>
+                   </li>
+                   <li>
+                       <a href="#">平台套餐</a>
+                   </li>
+                   <li>
+                       <a href="#">Web APP</a>
+                   </li>
+                   <li>
+                       <a href="#">发布需求</a>
+                   </li>
+                   <li>
+                       <a href="#">加入平台</a>
+                   </li>
+                   <li>
+                       <a href="#">平台动态</a>
+                   </li>
+               </ul>
+           </div>
+       </div>
+   </nav>
+   <!--内容部分-->
+ <section class="section">
+     <div class="juzhong">
+         <div class="content">
+             <div>
+                 <h1>开发者注册表单</h1>
+             </div>
+             <form action="" name="form1">
+                 <div>
+                     <label for="uid">用户名：</label> <input type="text" id="uid" placeholder="请输入6~32位字符的用户名"/>
+                 </div>
+                 <div>
+                     <label for="">户名类型：</label>
+                     <input type="radio" name="leixin"/> <label class="rd" for="check"><span class="check3"></span> 个体开发者 </label>
+                      <input type="radio" name="leixin"/> <label class="rd" for="check"><span class="check3"></span>  组织工作室 </label>
+                     <input type="radio" name="leixin"/><label class="rd" for="check"><span class="check3"></span> 公司 </label>
+
+                 </div>
+                 <div><label for="">所在区域：</label>
+                  <select  name="selectp" onChange="selectcityarea('selectp','selectc','form1');">
+                     <option value="">--请选择--</option>
+                  </select>&nbsp;&nbsp;省
+                     <select name="selectc" id="cities">
+                         <option value="">--请选择--</option>
+                     </select>&nbsp;&nbsp;市
+                 </div>
+                 <div><label for="">密码：</label><input type="password" placeholder="请输入密码" /></div>
+                 <div><label for="">确认密码：</label><input type="password" placeholder="请确认密码" /></div>
+                 <div><label for="">真实姓名：</label><input type="text" placeholder="请输入真实姓名"/></div>
+                 <div><label for="">邮箱：</label><input type="email" placeholder="请输入您的邮箱"/></div>
+                 <div><label for="">请输入您的手机号：</label><input type="text" class="i_num" placeholder="请输入手机号"/> <input class="dj" type="button" value="获取验证码"/></div>
+                 <div><label for="">请输入验证码：</label><input type="text"class="i_num" placeholder="请输入验证码"/> <input class="dj" type="button" value="确认"/></div>
+                 <div><label for="">我能够胜任：</label>
+                     <input id="check" type="checkbox"/><label class="ck" for="check"><span class="check"></span> PC前端 </label>
+                     <input id="check1" type="checkbox"/><label class="ck" for="check1"><span class="check"></span> 手机前端 </label>
+                 </div>
+                 <div><label for="">身份证号码：</label><input type="text" placeholder="请输入18位二代身份证号码"/></div>
+                 <div><label for="">项目经验：</label> <textarea name="" id="" cols="30" rows="10" placeholder="100字以内"></textarea></div>
+                 <div>
+                     <input type="button" class="zc" value="立即注册"/>
+                     <input type="button" class="zc"  value="立即成为开发者"/>
+                 </div>
+             </form>
+         </div>
+     </div>
+ </section>
+ <footer>
+     <div class="juzhong">
+         <div class="wrap cf">
+             <div class="left">
+                 <p class="footer_head">平台简介</p>
+                 <p>
+                     新工式，2014年成立于上海，由前IBM负责软件的服务外包原高管，带领一群志在用“众包”改变移动互联网软件外包模式的人士创建
+                 </p>
+             </div>
+             <div class="left mid">
+                 <p class="footer_head">服务范围</p>
+                 <ul>
+                     <li><span class="icon"><span class="arrow"></span></span>pc网站建设</li>
+                     <li><span class="icon"><span class="arrow"></span></span>手机网站建设</li>
+                     <li><span class="icon"><span class="arrow"></span></span>微信服务</li>
+                     <li><span class="icon"><span class="arrow"></span></span>UI设计</li>
+                 </ul>
+             </div>
+             <div class="right">
+                 <p class="footer_head">
+                     联系我们
+                 </p>
+                 <ul>
+                     <li>电话：021-31662210</li>
+                     <li>QQ：3026731887</li>
+                     <li>客服：</li>
+                     <li>邮箱：service@newdesk.com</li>
+                 </ul>
+             </div>
+         </div>
+     </div>
+ </footer>
+ <div class="company">
+     <div class="juzhong">
+         <ul class="cf">
+             <li><a href="#">和讯网</a></li>
+             <li><a href="#">360安全网址</a></li>
+             <li><a href="#">好123</a></li>
+             <li><a href="#">金融界</a></li>
+             <li><a href="#">财新网</a></li>
+             <li><a href="#">电影网</a></li>
+             <li><a href="#">凤凰网</a></li>
+             <li><a href="#">新浪网</a></li>
+             <li><a href="#">百度音乐</a></li>
+             <li><a href="#">娱乐八卦</a></li>
+             <li><a href="#">豆瓣</a></li>
+             <li><a href="#">163邮箱</a></li>
+         </ul>
+         <p>Copyright&copy; 2014-2016 Newdesk新工式 沪ICP备14046117号-1</p>
+     </div>
+ </div>
+   <script>
+       $(".ck").toggle(function(){
+           $(this).children("span").attr("class","check1")
+           $(this).prev().attr("checked","checked")
+       },function(){
+           $(this).children("span").attr("class","check")
+           $(this).prev().removeAttr("checked")
+       })
+       $(".rd").click(function(){
+           $(".rd").children("span").attr("class","check3");
+           $(".rd").prev().removeAttr("checked");
+           $(this).children("span").attr("class","check2");
+           $(this).prev().attr("checked","checked");
+       })
+   </script>
+</body>
+</html>
